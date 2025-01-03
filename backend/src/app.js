@@ -24,7 +24,7 @@ app.get('/status', (req, res) => {
   res.send('Hello World!')
 });
 
-app.post('/data', (req, res) => {
+app.post('/register', (req, res) => {
   let data = req.body
   console.log('trying to post the following data: ', data)
   res.send('Succes')
